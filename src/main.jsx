@@ -10,6 +10,9 @@ import Home from './pages/Home/Home/Home';
 import TaskUpdateForm from './components.jsx/Tasks/TaskUpdateForm';
 import AddTask from './pages/AddTask/AddTask';
 import Login from './pages/Login/Login';
+import Stats from './pages/Stats/Stats';
+import Finance from './pages/Stats/Finance/Finance';
+import Marketing from './pages/Marketing/Marketing';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,6 +34,18 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login />
+      },
+      {
+        path: "stats",
+        element: <Stats />
+      },
+      {
+        path: "finance",
+        element: <Finance />
+      },
+      {
+        path: "marketing",
+        element: <Marketing />
       }
     ]
   },
