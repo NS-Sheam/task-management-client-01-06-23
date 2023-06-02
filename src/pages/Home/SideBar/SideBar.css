@@ -1,0 +1,4 @@
+/* custom css with tailwind */
+.sidebar-li-style{
+    @apply lg:py-4 lg:px-7 lg:rounded-2xl ;
+}
